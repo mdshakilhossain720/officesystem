@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Add to data</h1>
+    <form action=''method="POST">
+        {% csrf_token %} 
+        
+        <div class="mb-3">
+          <label for="first_name" class="form-label">First Name</label>
+          <input type="text" class="form-control" id="first_name">
+        </div>
+        <br>
+        <div class="mb-3">
+            <label for="last_name" class="form-label">Last Name</label>
+            <input type="text" class="form-control" id="last_name">
+          </div>
+          <br>
+        <div class="mb-3">
+            <label for="dept" class="form-label">Dept</label>
+            <input type="text" class="form-control" id="dept">
+          </div>
+          <br>
+        <div class="mb-3">
+            <label for="salary" class="form-label">Salary</label>
+            <input type="text" class="form-control" id="salary">
+          </div>
+          <br>
+        <div class="mb-3">
+            <label for="bondus" class="form-label">Bonus</label>
+            <input type="text" class="form-control" id="bondus">
+          </div>
+          <br>
+        <div class="mb-3">
+            <label for="role" class="form-label">Rooll</label>
+            <input type="text" class="form-control" id="role">
+          </div>
+          <br>
+        <div class="mb-3">
+            <label for="phone" class="form-label">Phone</label>
+            <input type="text" class="form-control" id="phone">
+          </div>
+          <div class="mb-3">
+            <label for=" hiredate" class="form-label">Hiree Date</label>
+            <input type="text" class="form-control" id=" hiredate">
+          </div>
+        
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+</body>
+</html>
